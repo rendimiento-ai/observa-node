@@ -9,11 +9,10 @@
     "rendimiento",
     "observability"
   ],
-  "homepage": "https://github.com/p0dxD/rendimiento.ai/blob/main/docs/content/guide/observa.md",
+  "homepage": "https://github.com/rendimiento-ai/rendimiento/blob/main/docs/content/guide/observa.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/p0dxD/rendimiento.ai.git",
-    "directory": "sdk/node"
+    "url": "git+https://github.com/rendimiento-ai/observa-node.git"
   },
   "main": "index.js",
   "types": "index.d.ts",
