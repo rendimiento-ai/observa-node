@@ -1,0 +1,8 @@
+# rendimiento tests this library on every push: it has no service to
+# deploy, so a run on main succeeds with "nothing to deploy".
+tasks:
+  - name: test
+    path: .
+    when: always
+    image: node:20-bookworm
+    command: npm ci --no-audit --no-fund && npm test
